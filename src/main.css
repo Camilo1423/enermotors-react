@@ -1,0 +1,43 @@
+:root {
+    /* font family */
+    --fnt-roboto: 'Roboto', sans-serif;;
+
+    /* regulacion de fuentes */
+    --fnt-thin: 100; 
+    --fnt-light: 300; 
+    --fnt-regular: 400; 
+    --fnt-medium: 500; 
+    --fnt-bold: 700; 
+    --fnt-black: 900;
+    
+    /* paleta de colores */
+    --tone-one: #262626;
+    --tone-two: #C4AC78;
+    --tone-three: #F2F2F2;
+}
+
+a {
+    text-decoration: none;
+    color: var(--tone-three);
+    padding: 10px 30px;
+    box-shadow:  5px 5px 22px #101010,
+             -5px -5px 22px #3c3c3c;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+a:hover {
+    background-color: #4a4a4a;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--tone-one);
+    font-family: var(--fnt-roboto);
+}

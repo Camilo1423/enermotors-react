@@ -1,0 +1,28 @@
+/* importacion de fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+    /* font family */
+    --fnt-roboto: 'Roboto', sans-serif;;
+
+    /* regulacion de fuentes */
+    --fnt-thin: 100; 
+    --fnt-light: 300; 
+    --fnt-regular: 400; 
+    --fnt-medium: 500; 
+    --fnt-bold: 700; 
+    --fnt-black: 900;
+    
+    /* paleta de colores */
+    --tone-one: #262626;
+    --tone-two: #C4AC78;
+    --tone-three: #F2F2F2;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
