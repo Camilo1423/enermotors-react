@@ -1,0 +1,39 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.contentServices {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.contentServices img {
+    height: 100%;
+    position: absolute;
+}
+
+.serviceInfo {
+    position: absolute;
+    padding: 20px;
+    bottom: 30px;
+    left: 10px;
+    border-radius: 10px 0px 0px 10px;
+    background-color: var(--tone-one);
+}
+
+.serviceInfo h2 {
+    color: var(--tone-two);
+    font-size: 36px;
+}
+
+.serviceInfo p {
+    color: var(--tone-three);
+    font-size: 18px;
+}

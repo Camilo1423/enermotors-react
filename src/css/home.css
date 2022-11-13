@@ -32,3 +32,35 @@
 .homeCarrusel {
     width: 50%;
 }
+
+@media (max-width: 1200px) {
+    .homeInfo {
+        width: 90%;
+    }
+
+    .homeCarrusel {
+        width: 100%;
+    }
+
+    .homeInfo {
+        margin: 50px 0;
+    }
+}
+
+@media (max-width: 580px) {
+    .homeInfo {
+        align-items: center;
+        text-align: center;
+        height: auto;
+    }
+
+    .homeInfo h2 {
+        font-size: 55px;
+    }
+
+    .homeParrafo {
+        font-size: 12px;
+    }
+
+    
+}

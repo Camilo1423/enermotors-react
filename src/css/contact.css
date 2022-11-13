@@ -1,0 +1,140 @@
+.contentContact {
+    width: 70%;
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentContact form{
+    width: 60%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.infoContact {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.infoContact h3 {
+    color: var(--tone-two);
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+
+.infoContact p {
+    color: var(--tone-three);
+    margin-bottom: 150px;
+    font-weight: var(--fnt-light);
+}
+
+.inputs {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.contentContact form input {
+    width: 100%;
+    padding: 10px 20px;
+    color: var(--tone-two);
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid var(--tone-two);
+    background-color: transparent;
+    margin: 20px 0;
+}
+
+
+.contentContact form input::placeholder {
+    color: var(--tone-three);
+}
+
+.contentContact form .inputs input{
+    width: 48%;
+    padding: 10px 20px;
+    color: var(--tone-two);
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid var(--tone-two);
+    background-color: transparent;
+}
+
+.contentContact form textarea {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    padding: 10px 20px;
+    height: 300px;
+    outline: none;
+    resize: none;
+    background-color: transparent;
+    border: none;
+    color: var(--tone-two);
+    border-bottom: 1px solid var(--tone-two);
+    font-family: var(--fnt-roboto);
+    font-size: 18px;
+}
+
+.contentContact form textarea::placeholder {
+    color: var(--tone-three);
+}
+
+.btnSend {
+    display: flex;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow:  5px 5px 22px #101010,
+             -5px -5px 22px #3c3c3c;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: var(--tone-two);
+    font-size: 16px;
+}
+
+.btnSend i {
+    margin-right: 10px;
+}
+
+
+@media (max-width: 1000px) {
+    .contentContact {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .contentContact form{
+        width: 100%;
+    }
+
+    .contentContact form input {
+        font-size: 14px;
+    }
+
+    .contentContact form .inputs input{
+        font-size: 14px;
+    }
+
+    .contentContact form textarea {
+        font-size: 14px;
+    }
+
+    .infoContact {
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    .infoContact p {
+        margin-bottom: 30px;
+    }
+    
+}

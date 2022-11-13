@@ -1,0 +1,24 @@
+.scrollTop {
+    position: fixed;
+    /* bottom: 50px; */
+    right: 50px;
+    padding: 10px 12px;
+    z-index: 5;
+    border-radius: 50%;
+    box-shadow:  5px 5px 22px #101010,
+             -5px -5px 22px #3c3c3c;
+    background-color: var(--tone-one);
+    transition: .3s;
+}
+
+.scrollTop a {
+    margin: 0;
+    padding: 0;
+    box-shadow:  none;
+    color: var(--tone-two);
+    font-size: 20px;
+}
+
+.scrollTop a:hover {
+    background-color: transparent;
+}

@@ -1,0 +1,48 @@
+.NavToggle {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: var(--tone-one);
+    padding: 15px 20px;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow:  5px 5px 22px #101010,
+             -5px -5px 22px #3c3c3c;
+    z-index: 5;
+    transition: .3s;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.NavToggle .links a {
+    margin: 0px 10px;
+    padding: 5px 15px;
+    box-shadow: none;
+    font-weight: var(--fnt-light);
+    color: var(--tone-two);
+}
+
+.NavToggle .links a:hover {
+    background-color: #3c3c3c;
+}
+
+@media (max-width: 800px) {
+    .NavToggle {
+        position: fixed;
+        right: 0%;
+        padding: 15px 0px;
+    }
+
+    .NavToggle .links a {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 450px) {
+    .NavToggle .links a {
+        margin: 0px 5px;
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+}

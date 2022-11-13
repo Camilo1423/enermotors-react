@@ -1,0 +1,53 @@
+.aboutTitle {
+    font-size: 64px;
+    color: var(--tone-two);
+}
+
+.aboutParrafo {
+    width: 50%;
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0;
+    color: var(--tone-three);
+}
+
+.aboutPerson {
+    width: 80%;
+    display: flex;
+    margin: 50px 0;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 1560px) {
+    .aboutPerson {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cardPerson {
+        margin: 30px 0;
+    }
+}
+
+@media (max-width: 580px) {
+    .aboutTitle {
+        font-size: 40px;
+    }
+
+    .aboutParrafo {
+        width: 90%;
+        margin: 0;
+        margin-top: 20px;
+    }
+    
+
+    .aboutPerson {
+        width: 100%;
+    }
+
+    .cardPerson {
+        width: 350px;
+        height: 450px;
+    }
+}

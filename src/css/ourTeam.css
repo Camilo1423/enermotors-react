@@ -1,0 +1,85 @@
+.teamInfo {
+    width: 35%;
+    margin-left: 20px;
+}
+
+.teamInfo .teamGeneralInfo h2 {
+    color: var(--tone-two);
+    font-size: 56px;
+}
+
+.teamInfo .teamGeneralInfo p {
+    color: var(--tone-three);
+    font-size: 24px;
+}
+
+.teamGeneralInfo {
+    margin-bottom: 40px;
+}
+
+.teamSegmentInfo {
+    display: flex;
+    align-items: center;
+}
+
+.segmentOne, .segmentTwo {
+    width: 30%;
+    margin-right: 80px;
+}
+
+.segmentOne h3, .segmentTwo h3{
+    color: var(--tone-two);
+    font-size: 24px;
+    font-weight: var(--fnt-regular);
+}
+
+.segmentOne p, .segmentTwo p{
+    color: var(--tone-three);
+    font-size: 16px;
+    font-weight: var(--fnt-light);
+}
+
+
+
+.teamImg {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+
+.teamImg img {
+    width: 80%;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+@media (max-width: 800px) {
+    .teamInfo {
+        width: 80%;
+        margin-bottom: 80px;
+    }
+
+    .teamImg {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .segmentOne, .segmentTwo {
+        width: 50%;
+        margin-right: 20px;
+    }
+    
+}
+
+@media (max-width: 450px) {
+    .teamInfo .teamGeneralInfo h2 {
+        font-size: 45px;
+    }
+
+    .teamInfo .teamGeneralInfo p {
+        font-size: 18px;
+    }
+}

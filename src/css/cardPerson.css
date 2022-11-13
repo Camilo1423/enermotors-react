@@ -1,0 +1,55 @@
+.cardPerson {
+    overflow: hidden;
+    box-shadow:  5px 5px 22px #101010,
+             -5px -5px 22px #3c3c3c;
+    width: 400px;
+    height: 500px;
+    border-radius: 12px;
+}
+
+.personImg {
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+}
+
+.personImg img {
+    width: 100%;
+}
+
+.personInfo {
+    width: 80%;
+    height: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.personInfo h2 {
+    color: var(--tone-two);
+    font-size: 26px;
+}
+
+.personInfo p {
+    color: var(--tone-three);
+    font-weight: var(--fnt-thin);
+    text-align: center;
+}
+
+.personInfo .personSocial a {
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    font-size: 24px;
+    margin: 0 20px;
+    padding: 8px 10px;
+    transition: .3s;
+}
+
+.personSocial a:hover {
+    box-shadow:  5px 5px 22px #101010,
+             -5px -5px 22px #3c3c3c;
+    background-color: transparent;
+}

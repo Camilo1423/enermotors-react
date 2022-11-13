@@ -19,3 +19,9 @@
 .imgContent img {
     width: 100%;
 }
+
+@media (max-width: 580px) {
+    .imgContent {
+        border: 10px solid transparent;
+    }   
+}
